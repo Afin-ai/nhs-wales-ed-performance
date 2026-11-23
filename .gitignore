@@ -1,0 +1,7 @@
+data/raw/*.csv
+!data/raw/test_statswales_schema.csv
+data/processed/*.csv
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
