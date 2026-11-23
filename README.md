@@ -2,7 +2,19 @@
 
 An analysis of how Welsh health boards perform against the emergency department waiting time targets, with a focus on data quality.
 
+**▶ Live dashboard: https://nhs-wales-ae-waits.streamlit.app**
+
 **Author:** Afin Rasheed, MSc Data Science (Northumbria University)
+
+## What the dashboard shows
+
+- **Waiting stripes:** one coloured stripe per month since October 2009, so 17 years of performance can be read at a glance.
+- **If 100 patients walked into A&E:** 100 figures coloured by how long each waited (under 4, 4 to 8, 8 to 12, and 12 hours or more).
+- **Animated hospital chart:** press play to watch every major emergency department move month by month since 2021.
+- **Statistical process control (SPC):** an NHS Making Data Count style chart that separates real change from normal variation and tests whether the 95% target is achievable.
+- **Map, league table and heatmap** comparing health boards and hospitals.
+- **Time machine:** rewind the whole dashboard to any month since April 2019.
+- **Data quality tab** with the full log of checks and downloads of the cleaned data.
 
 ## The question
 
@@ -60,4 +72,4 @@ streamlit run app.py
 
 ## Tools
 
-Python, pandas, Plotly, Streamlit, Jupyter.
+Python, pandas, Plotly, Streamlit, Jupyter. Deployed on Streamlit Community Cloud, with the data refreshed daily from StatsWales.
